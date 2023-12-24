@@ -5,7 +5,7 @@ passwdgen is a simple command-line tool for generating random passwords with cus
 ## Usage
 
 
-python passwdgen.py -l <length> -c <characters> -n <digits> -s <special_characters>  
+python passwdgen.py -l -c -n -s 
 
 # Arguments
 
