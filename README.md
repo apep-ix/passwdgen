@@ -7,11 +7,11 @@ passwdgen is a simple command-line tool for generating random passwords with cus
 passwdgen -l -c -n -s 
 
 # Arguments
-
-    -l: total length of the password must be between 6-256 inclusive (required).
-    -c: number of characters in the password (use 0 for no characters) (required).
-    -n: number of digits in the password (use 0 for no digits) (required).
-    -s: number of special characters in the password (use 0 for no special ch) (required).
+    -h, --help   show help and exit.
+    -l, --len    total length of the password must be between 6-256 inclusive (required).
+    -c, --char   number of characters in the password (use 0 for no characters) (required).
+    -n, --num    number of digits in the password (use 0 for no digits) (required).
+    -s, --spec   number of special characters in the password (use 0 for no special ch) (required).
     
 # Examples
 
