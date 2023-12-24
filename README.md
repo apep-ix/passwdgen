@@ -19,11 +19,10 @@ python passwdgen.py -l -c -n -s
 Generate a 12-character password, including 4 characters, 6 digits, and 2 special characters:
 
 
-python passwdgen.py -l 12 -c 4 -n 6 -s 2
+passwdgen -l 12 -c 4 -n 6 -s 2
 
 Generate a password with only characters (no digits or special characters):
 
-
-python passwdgen.py -l 8 -c 8 -n 0 -s 0
+passwdgen -l 8 -c 8 -n 0 -s 0
 
 
