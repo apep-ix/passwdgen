@@ -14,7 +14,7 @@ def main():
 
     args = parser.parse_args()
 
-    if args.len > 256 or args.len <= 0:
+    if args.len > 256 or args.len < 6:
         raise ValueError('Total password length must be betwen 6-256 (inclusive)')
     elif args.char + args.num + args.spec > args.len or args.char + args.num + args.spec  < args.len:
         raise ValueError('The sum of character set lengths does not match the specified length')
